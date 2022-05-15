@@ -38,3 +38,50 @@ a {
     font-size: 18px;
     color: #E5E7EB;
 }
+
+.top {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+.top_left {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.top_left_title {
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+.top_left p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.top img {
+    background-color: grey;
+    height: 150px;
+    width: 300px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 150px;
+}
+
+button {
+    background-color: #3882f6;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    border: none;
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 16px;
+}
