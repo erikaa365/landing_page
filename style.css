@@ -71,7 +71,6 @@ a {
     width: 300px;
     border-radius: 10px;
     text-align: center;
-    line-height: 150px;
 }
 
 button {
@@ -96,11 +95,13 @@ button {
 .info_title {
     font-size: 36px;
     font-weight: bolder;
+    flex-wrap: wrap;
 }
 
 .info_list {
     display: flex;
     gap: 20px;
+    flex-wrap: wrap;
 }
 
 
