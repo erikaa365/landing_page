@@ -141,3 +141,38 @@ button {
     font-weight: bold;
 }
 
+.signup {
+    background-color: #3882f6;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+    width: 70%;
+    height: 100px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.signup_title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.signup_text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.signup_button {
+    border-color: #F9FAF8;
+    border-style: double;
+}
+
+.footer {
+    background-color: #1F2937;
+    width: 100%;
+    text-align: center;
+    color: #E5E7EB;
+}
